@@ -6,6 +6,33 @@ app_email = "shoaib@zikpro.com"
 app_license = "mit"
 # required_apps = []
 
+
+doctype_js = {
+    "Contact": "public/js/contact.js"
+}
+
+
+
+# app_include_js = "/assets/root_home_twilio/js/twilio_browser_call.js"
+
+app_include_js = "/assets/root_home_twilio/js/inbound_call_ui.js"
+
+# app_include_js = "/assets/root_home_twilio/js/twilio_outbound.js"
+
+
+# webhooks = [
+#     {
+#         "method": "POST",
+#         "path": "/api/method/root_home_twilio.api.incoming.handle_incoming_call",
+#         "handler": "root_home_twilio.api.incoming.handle_incoming_call"
+#     }
+# ]
+
+
+
+
+# app_include_templates = ["root_home_twilio/templates/includes/twilio_call_modal.html"]
+
 # Includes in <head>
 # ------------------
 
